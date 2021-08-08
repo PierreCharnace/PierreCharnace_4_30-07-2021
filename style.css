@@ -484,6 +484,11 @@ button {
     text-shadow: 0 1px 2px rgba(0, 0, 0, .3);
 }
 
+.col-sm-12{
+    z-index: 1;
+    color: white;
+}
+
 .panel-sq,
 .panel-sq .panel-heading,
 .panel-sq .panel-footer {
@@ -648,7 +653,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: black!important;
 }
 
 .container {
@@ -674,7 +679,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 1.2rem;
 }
 
 .tight-width-whitespace {
@@ -769,10 +774,6 @@ h4 {
 
 .bgc-atomic-tangerine {
     background-color: #F3976C;
-}
-
-.tc-white {
-    color: #F3976C!important;
 }
 
 .btn-atomic-tangerine {
