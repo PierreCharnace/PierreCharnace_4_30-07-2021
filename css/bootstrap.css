@@ -1658,6 +1658,7 @@ mark {
 }
 
 .text-center {
+    margin: 0!important;
     text-align: center
 }
 
@@ -1858,9 +1859,8 @@ abbr[title] {
 
 blockquote {
     padding: 10px 20px;
-    margin: 0 0 20px;
+    margin: 0;
     font-size: 17.5px;
-    border-left: 5px solid #eee
 }
 
 blockquote ol:last-child,
@@ -4373,7 +4373,6 @@ tbody.collapse.in {
     cursor: not-allowed;
     background-color: transparent;
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
 }
 
 .open>.dropdown-menu {
