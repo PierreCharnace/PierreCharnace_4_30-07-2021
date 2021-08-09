@@ -1435,7 +1435,7 @@ img {
 .img-responsive,
 .thumbnail a>img,
 .thumbnail>img {
-    
+    display: block;
     max-width: 100%;
     height: auto
 }
@@ -1658,7 +1658,6 @@ mark {
 }
 
 .text-center {
-    margin: 0 0 10px 0!important;
     text-align: center
 }
 
@@ -1859,8 +1858,9 @@ abbr[title] {
 
 blockquote {
     padding: 10px 20px;
-    margin: 0;
+    margin: 0 0 20px;
     font-size: 17.5px;
+    border-left: 5px solid #eee
 }
 
 blockquote ol:last-child,
@@ -4373,7 +4373,6 @@ tbody.collapse.in {
     cursor: not-allowed;
     background-color: transparent;
     background-image: none;
-
 }
 
 .open>.dropdown-menu {
