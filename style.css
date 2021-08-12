@@ -123,7 +123,7 @@ a:hover {
 .d-bloc .navbar a,
 .d-bloc .navbar-brand,
 .d-bloc a .icon-sm,
-.d-bloc a .icon-md,
+.d-bloc a,
 .d-bloc a .icon-lg,
 .d-bloc a .icon-xl,
 .d-bloc h1 a,
@@ -133,7 +133,11 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: black!important;
+}
+
+.icon-md{
+    color: white;
 }
 
 .d-bloc .a-btn:hover,
@@ -516,9 +520,11 @@ button {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    opacity: 0;
+    opacity: 1;
+    font-size: 14px;
     z-index: 500;
     transition: all .3s ease-in-out;
+    border-radius: 15%;
 }
 
 .scrollToTop span {
@@ -683,6 +689,7 @@ p {
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
+    font-size: 13px;
 }
 
 .h1 {
@@ -735,6 +742,11 @@ h4 {
     margin-top: 24px;
 }
 
+.black{
+    color: black!important;
+    font-size: 1.4rem;
+}
+
 .white {
     color: #FFFFFF!important;
 }
@@ -775,12 +787,12 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+   color: black!important;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: black!important;
 }
 
 .btn-atomic-tangerine:hover {
